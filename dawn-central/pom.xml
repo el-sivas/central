@@ -8,5 +8,6 @@
   <modules>
   	<module>dawn-central-logic</module>
   	<module>dawn-central-odd</module>
+  	<module>dawn-central-persist</module>
   </modules>
 </project>
