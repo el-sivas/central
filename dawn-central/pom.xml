@@ -6,6 +6,7 @@
   <packaging>pom</packaging>
   <modules>
   	<module>dawn-central-logic</module>
+  	<module>dawn-central-odd</module>
   </modules>
   <description>central fuctions</description>
 </project>
