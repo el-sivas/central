@@ -1,12 +1,12 @@
-package de.elsivas.odd.sunclock.test;
+package de.elsivas.odd.calendar.sun.test;
 
 import java.util.logging.Logger;
 
 import org.junit.Assert;
 import org.junit.Test;
 
-import de.elsivas.odd.sunclock.SunDate;
-import de.elsivas.odd.sunclock.SunDateUtils;
+import de.elsivas.odd.calendar.sun.SunDate;
+import de.elsivas.odd.calendar.sun.SunDateUtils;
 
 public class SunDateTest extends Assert {
 

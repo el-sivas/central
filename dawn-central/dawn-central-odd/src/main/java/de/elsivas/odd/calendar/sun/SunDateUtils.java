@@ -1,4 +1,4 @@
-package de.elsivas.odd.sunclock;
+package de.elsivas.odd.calendar.sun;
 
 import java.time.LocalDate;
 import java.time.Month;

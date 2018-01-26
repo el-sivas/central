@@ -1,4 +1,4 @@
-package de.elsivas.odd.sunclock;
+package de.elsivas.odd.calendar.sun;
 
 public enum SunMonth {
 
