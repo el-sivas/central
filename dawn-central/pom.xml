@@ -7,4 +7,5 @@
   <modules>
   	<module>dawn-central-logic</module>
   </modules>
+  <description>central fuctions</description>
 </project>
