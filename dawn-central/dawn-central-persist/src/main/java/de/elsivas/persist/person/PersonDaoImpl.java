@@ -1,8 +1,13 @@
 package de.elsivas.persist.person;
 
-import de.elsivas.persist.AbstractDao;
+import de.elsivas.persist.AbstractDaoImpl;
 import de.elsivas.persist.Dao;
 
-public class PersonDaoImpl extends AbstractDao<PersonBean> implements Dao<PersonBean> {
+public class PersonDaoImpl extends AbstractDaoImpl<PersonBean> implements Dao<PersonBean> {
+
+	@Override
+	protected Class<PersonBean> beanClass() {
+		return PersonBean.class;
+	}
 
 }

@@ -6,8 +6,8 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
+import de.elsivas.basic.DateUtils;
 import de.elsivas.logic.InternalLogicException;
-import de.elsivas.logic.date.DateUtils;
 
 public class SunDateUtils {
 
