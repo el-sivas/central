@@ -12,7 +12,7 @@
 		<dependency>
 			<groupId>de.elsivas.central</groupId>
 			<artifactId>dawn-central-logic</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>${project.version}</version>
 		</dependency>
 	</dependencies>
 </project>
