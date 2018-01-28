@@ -9,11 +9,12 @@
 
 	<properties>
 		<apache.commons.version>3.7</apache.commons.version>
-		<eclipse.link.version>2.7.1</eclipse.link.version>
+		<eclipse.link.version>2.6.5</eclipse.link.version>
 		<spring.version>5.0.3.RELEASE</spring.version>
 		<mysql.version>6.0.6</mysql.version>
 		<log4j.version>2.10.0</log4j.version>
 	</properties>
+	
 	<modules>
 		<module>dawn-central-logic</module>
 		<module>dawn-central-odd</module>
@@ -73,6 +74,7 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
+	
 	<build>
 		<plugins>
 			<plugin>
@@ -86,4 +88,5 @@
 			</plugin>
 		</plugins>
 	</build>
+
 </project>

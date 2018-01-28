@@ -5,10 +5,11 @@ import java.lang.reflect.Method;
 import java.time.LocalDateTime;
 
 import javax.annotation.PostConstruct;
+import javax.annotation.Resource;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceUnit;
 
-import de.elsivas.basic.ioc.DawnContextInitializer;
+import org.springframework.beans.factory.BeanFactory;
 
 public abstract class AbstractDaoImpl<E extends EntityBean> {
 
@@ -16,7 +17,15 @@ public abstract class AbstractDaoImpl<E extends EntityBean> {
 
 	@PersistenceUnit
 	private EntityManager entityManager;
-
+	
+	@Resource
+	private BeanFactory beanFactory;
+	
+	@PostConstruct
+	public void init() {
+		entityManager = (EntityManager) beanFactory.getBean("entityManager");
+	}
+	
 	protected abstract Class<E> beanClass();
 
 	public void save(E entity) {
